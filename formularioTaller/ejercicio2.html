@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="prueba2.php">
+        <label for="name">Nombre:</label>
+        <input name="nombre" type="text" id="name">
+        <br>
+        <label for="mat">Matricula:</label>
+        <input name="matricula" type="text" id="mat">
+        <br>
+        <label for="tel">Telefono:</label>
+        <input name="tele" type="number" id="tel">
+        <br>
+        <label for="em">Email:</label>
+        <input name="email" type="email" id="em">
+        <br>
+        <label for="mar">Marcas:</label>
+        <select name="marca" id="mar">
+            <option value="Aston Martin">Aston Martin</option>
+            <option value="Red Bull">Red Bull</option>
+            <option value="Mercedes">Mercedes</option>
+        </select>
+        <br>
+        <label for="si">Si usa seguro</label>
+        <input name="seguro" type="radio" id="si" value="Si">
+        <label for="no">No usa seguro</label>
+        <input name="seguro" type="radio" id="no" value="No">
+        <br>
+        <p>Horas de llamada</p>
+        <label for="man">Mañana</label>
+        <input name="llamada[]" type="checkbox" id="man" value="Mañana">
+        <label for="tar">Tarde</label>
+        <input name="llamada[]" type="checkbox" id="tar" value="Tarde">
+        <label for="noc">Noche</label>
+        <input name="llamada[]" type="checkbox" id="noc" value="Noche">
+        <br>
+        <br>
+        <input type="submit" name="submit">
+    </form>
+</body>
+</html>
