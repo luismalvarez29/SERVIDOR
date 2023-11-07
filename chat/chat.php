@@ -25,7 +25,6 @@
             margin-left: 400px;
             width: 50%;
             padding-left: 5px;
-            background-color: aqua;
         }
     </style>
 </head>
