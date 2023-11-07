@@ -22,7 +22,7 @@
         echo "<tr>
                 <td>$nomPais</td>
                 <td>$capital</td>
-                <td><a href='$link' target='_blank'>Ver en Google Maps</a></td>
+                <td><a href='$link'>Ver en Google Maps</a></td>
                 </tr>";
     }
     echo "</table>";
