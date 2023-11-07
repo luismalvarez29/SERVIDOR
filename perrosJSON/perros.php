@@ -11,7 +11,7 @@
         $solicitud = file_get_contents($url);
         $datos = json_decode($solicitud, true);
         $imagenURL = $datos['message'];
-        echo "<img src='$imagenURL' alt='Random Dog'>";
+        echo "<img src='$imagenURL' alt='Perro'>";
     ?>
 </body>
 </html>
