@@ -16,7 +16,7 @@
         $cookie = isset($_COOKIE["ropa"]) ? $_COOKIE["ropa"] : "";
         if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["ropa"])){
             $select = isset($_POST["ropa"]) ? $_POST["ropa"] : "";
-            setcookie("ropa", $select, time() + 60);
+            setcookie("ropa", $select, time() + 1800);
             $cookie = $select;
         }
         echo "<form action='cookies.php' method='POST'>
