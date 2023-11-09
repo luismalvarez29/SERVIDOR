@@ -14,7 +14,7 @@
     <h1>Cookies para tiendas</h1>
     <?php
         $cookie = isset($_COOKIE["ropa"]) ? $_COOKIE["ropa"] : "";
-        if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["ropa"])){
+        if(isset($_POST["ropa"])){
             $select = isset($_POST["ropa"]) ? $_POST["ropa"] : "";
             setcookie("ropa", $select, time() + 60);
             $cookie = $select;
